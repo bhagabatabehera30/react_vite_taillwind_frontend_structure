@@ -1,0 +1,143 @@
+
+.ebiz-html {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    --sf-img-20: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAABVCAMAAAAPK1hoAAAAk1BMVEUAAAAqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpMqNpN4K1cDAAAAMHRSTlMAxrzVkvpjJiBTFqCAde5bGguWD+OomzYw67h6QgfczL+zbUf0pY470GHock2vhywUK6ZmAAAC8klEQVR42u3U2ZKiMBiG4V8x7DsIKK6479/9X90Q7U6Gbh3bDmfjcxateov6s9Db239i1NMYrtgkXlArdlM0aKVNqjYd3DB/yXBjkqIS3L6vF2GShIXeHwBrUrRCbVtFJEReV3UAM9QO1K4+gLSgdh14NKF2mQBYKJa2rutiompDHZFgADBI1QVARkIwBBCbLWwVEydq3MHNWm0I0RLoidUQnzqkIriNUc4Ue20JYEEqeoAmFhaAlMh2lzop6QKOWCwA+BsisknJeAB4csgMtfkuITUhgCMJR1wt40T5Ym1IWmi4GlxUq83t1ru3LClI2PcnsFgzADtSMAUykoyZ9XEZVqTAaVwjcw8MK3cAwCUF3t/P4NiHYJMCA0ApVtYEH3Sq2YXlZkOtSy/bAilJ1RS16ZFoM00Zbugq04SnQ7cAeCQVn/sfQCiI0yBM6JlBc4ih67oR1UYAlj64gLguhA4JkR3aDz52S9/ZZZCbGrjDnerY3ARevzPxl2DpykruPFvoPzx33PpO9YyGQTyihsh/kB3zzmAL9O9UHXw1LU0i6cL4bxv6YjRBzfAA7U61hzv6G5IKhlocEkmGA84iF8CzqjTdjWVighpbWebHOhiC80dEFcCeV6XUDcVsHdxoJ8eZT3Bz4v8blWW8UgWYU4j3uoMvNIuEV6rccCF2Z5VC8Oe8+XJV0uSAiyqbz2Zzx8sjIpUql5YJfaNY5fZ5i1VpmahWt7GGbyzVaurmeTVnaAjUJ+B7/CR5Mx9C2Mpce3yQUV6eJuCCtnYrNugqr+J13uLJikN6wQvvgNFmVcqM9qtyvu3frcxssyoN+/2Vk2Vxb70+n123LEvP8w5B8rh6wq8N8ofV41AhO35QrZmBs8fvXEiYNavcOD938AsmCRqElCSzWvl4TYekhS4cqSFZrCf4ualNP2XsTj6e8LVZ72Bt6CXRKNvinv126JyD3IzolwpvzvCJafPY1Y/mmNSFljufZV4wutj09vb29vZPfwCoN1TPfIZ+4QAAAABJRU5ErkJggg==&quot;);
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+    --ws-font-size-title: 18px;
+    --ws-font-size-circle-title: 14px;
+    --ws-font-size-excerpt: 16px;
+    --ws-font-size-author-date: 14px;
+    --ws-aspect-ratio: 4/6;
+    --ws-list-aspect-ratio: 4/6;
+    --ws-overlay-text-color: #fff;
+    --ws-overlay-text-lh: 1.3;
+    --ws-story-min-width: 160px;
+    --ws-story-max-width: 285px;
+    --ws-circle-size: 96px;
+    --ws-circle-border-color: #ccc;
+  }
+  .ebiz-body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+        135deg,
+        rgba(6, 147, 227, 1) 0%,
+        rgb(155, 81, 224) 100%
+      );
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+        135deg,
+        rgb(122, 220, 180) 0%,
+        rgb(0, 208, 130) 100%
+      );
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+        135deg,
+        rgba(252, 185, 0, 1) 0%,
+        rgba(255, 105, 0, 1) 100%
+      );
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+        135deg,
+        rgba(255, 105, 0, 1) 0%,
+        rgb(207, 46, 46) 100%
+      );
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+        135deg,
+        rgb(238, 238, 238) 0%,
+        rgb(169, 184, 195) 100%
+      );
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+        135deg,
+        rgb(74, 234, 220) 0%,
+        rgb(151, 120, 209) 20%,
+        rgb(207, 42, 186) 40%,
+        rgb(238, 44, 130) 60%,
+        rgb(251, 105, 98) 80%,
+        rgb(254, 248, 76) 100%
+      );
+      --wp--preset--gradient--blush-light-purple: linear-gradient(
+        135deg,
+        rgb(255, 206, 236) 0%,
+        rgb(152, 150, 240) 100%
+      );
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(
+        135deg,
+        rgb(254, 205, 165) 0%,
+        rgb(254, 45, 45) 50%,
+        rgb(107, 0, 62) 100%
+      );
+      --wp--preset--gradient--luminous-dusk: linear-gradient(
+        135deg,
+        rgb(255, 203, 112) 0%,
+        rgb(199, 81, 192) 50%,
+        rgb(65, 88, 208) 100%
+      );
+      --wp--preset--gradient--pale-ocean: linear-gradient(
+        135deg,
+        rgb(255, 245, 203) 0%,
+        rgb(182, 227, 212) 50%,
+        rgb(51, 167, 181) 100%
+      );
+      --wp--preset--gradient--electric-grass: linear-gradient(
+        135deg,
+        rgb(202, 248, 128) 0%,
+        rgb(113, 206, 126) 100%
+      );
+      --wp--preset--gradient--midnight: linear-gradient(
+        135deg,
+        rgb(2, 3, 129) 0%,
+        rgb(40, 116, 252) 100%
+      );
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+        6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      font-family: 'DM Sans', sans-serif;
+  }
+  .wpb_animate_when_almost_visible {
+    opacity: 1;
+  }
+.page-box-sizing {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box
+}
+.page-box-bg {
+  background: #fff;
+}
+.box-bg-blue {
+  background: #2a3693;
+}
+.liststyle-none {
+  list-style: none;
+}
+.outline-none {
+  list-style: none;
+}
+
+          
+  
